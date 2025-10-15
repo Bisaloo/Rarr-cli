@@ -15,7 +15,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          package: Huber-group-EMBL/Rarr
+          packages: Huber-group-EMBL/Rarr
 
       - uses: Bisaloo/zarr-conformance-tests@main
         with:
